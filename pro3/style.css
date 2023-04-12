@@ -1,0 +1,539 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.achtergrondfoto {
+  background-image: url("img/maatpak.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 95vh;
+  z-index: -100;
+ }
+
+header {
+  background-color: black;
+  color: #ffffff;
+  height: 110px;
+  width: 100%;
+  z-index: 1;
+}
+
+nav {
+  align-items: center;
+
+  display: flex;
+  width: 90%;
+}
+
+nav ul {
+  list-style: none;
+  font-size: 22px;
+
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+  
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  background-color: #000000;
+  color: #333;
+} 
+
+
+
+/* Homepagina */
+#recommendations
+.preview1 {
+  left: 0%;
+  top: 20%;
+  position: absolute;
+  width: 200px;
+  background: #d9d9d9;
+}
+
+.nike_air_max_alpha {
+  height: 150px;
+  background: #d9d9d9;
+}
+
+.preview2 {
+  left: 50%;
+  top: 20%;
+  position: absolute;
+  height: 200px;
+  background: #d9d9d9;
+}
+
+.nike_air_max_system {
+  height: 150px;
+  background: #d9d9d9;
+}
+
+.preview3 {
+  right: 10%;
+  top: 20%;
+  position: absolute;
+  width: 209px;
+  background: #d9d9d9;
+}
+
+.nike_sock_dart {
+  height: 150px;
+  background: #d9d9d9;
+}
+
+.text-box{
+  width: 90%;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 72%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.text-box h1{
+  font-size: 62px;
+}
+.text-box p{
+  margin: 10px 0 40px;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+.hero-btn{
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid;
+  color: rgb(255, 255, 255);
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.hero-btn:hover{
+  border: 1px solid #000000;
+  
+  transition: 1s;
+}
+
+main section {
+  margin: 20px;
+}
+
+main h2 {
+  font-size: 1.5rem;
+}
+
+main ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+main li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+main li:last-child {
+  margin-right: 0;
+}
+
+main a.button {
+  display: inline-block;
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+main a.button:hover {
+  background-color: #fff;
+  color: #333;
+}
+.pakken{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+
+}
+
+footer {
+  position: relative;
+  top: 90%;
+  display: flex;
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  justify-content: center;
+}
+
+.footer_container {
+  background-color: black;
+  width: 100%;
+  height: auto;
+}
+
+.pak{
+  height: 400px;
+  width: auto;
+}
+#hond{
+  left: 0%;
+  height: 110px;
+  width: auto;
+  margin-top: 0px;
+}
+.kat{
+  margin-left: 800px;
+}
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: #000000;
+
+}
+
+.dropbtn {
+
+
+  padding: 10px;
+}
+
+.dropbtn:hover {
+  background-color: #ddd;
+}
+
+
+
+
+
+.contact {
+  margin-top: 25px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.contact:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #575454;
+  
+  background-size: cover;
+  filter: blur(50px);
+  z-index: -1;
+}
+
+.contact-box {
+  margin-left: 100px;
+  max-width: 850px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #6e6b6b;
+  box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
+
+.left {
+  background: url("img/trouwpak.jpg") no-repeat center;
+  background-size: cover;
+  height: 100%;
+}
+
+.right {
+  padding: 25px 40px;
+}
+
+#contacth2 {
+  position: relative;
+  padding: 1px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.field {
+  width: 89%;
+  resize: none;
+  border: 2px solid rgba(255, 255, 255, 0);
+  outline: none;
+  background-color: rgba(230, 230, 230, 0.6);
+  padding: 0.5rem 1rem;
+  font-size: 18px;
+  margin-bottom: 22px;
+  transition: .3s;
+}
+
+textarea {
+  min-height: 150px;
+}
+
+.contactbtn {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background: #000000;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contactbtn:hover {
+  background: #302b2b;
+}
+
+.field:focus {
+  background: #fff;
+}
+
+
+
+
+
+
+
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+aside {
+  flex-basis: 250px;
+  background-color: #252525;
+  padding: 20px;
+  color: white;
+}
+
+aside #h2 {
+  margin-top: 0;
+  color: white;
+}
+
+aside label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+aside select {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+aside input[type="range"] {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+aside button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.producten_main {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.products {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
+  grid-gap: 20px;
+ 
+}
+
+
+.section_suits {
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.section_suits .producten {
+  width: 100%;
+  height: 640px;
+  margin-bottom: 10px;
+  
+}
+
+.section_suits #h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.section_suits2 {
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.section_suits2 {
+  width: 100%;
+  height: 640px;
+  margin-bottom: 10px;
+}
+
+.section_suits2 #h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.contact {
+  margin-top: 25px;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  margin-bottom: 25px;
+}
+
+.contact:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+  background: #575454;
+	background-size: cover;
+	filter: blur(50px);
+	z-index: -1;
+}
+
+.contact-box {
+  margin-left: 100px;
+	max-width: 850px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background: #6e6b6b;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
+
+.left {
+	background: url("img/trouwpak.jpg") no-repeat center;
+	background-size: cover;
+	height: 100%;
+}
+
+.right {
+	padding: 25px 40px;
+}
+
+#contacth2 {
+	position: relative;
+  padding: 1px;
+	margin-bottom: 10px;
+  color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.field {
+	width: 89%;
+  resize: none;
+	border: 2px solid rgba(255, 255, 255, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 18px;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+textarea {
+	min-height: 150px;
+}
+
+.contactbtn {
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background: #000000;
+	color: #fff;
+	font-size: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.contactbtn:hover {
+  background: #302b2b;
+}
+
+.field:focus {
+  background: #fff;
+} 
+
+
+
+
+
+.schoenfoto {
+padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.schoenfoto img  {
+  width: 100;
+  height: 640px;
+  margin-bottom: 10px;
+}
+
+.schoenfoto #h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
